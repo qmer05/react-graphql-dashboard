@@ -1,0 +1,497 @@
+[
+    {
+        "id": 1,
+        "name": "Sommerkampagne",
+        "channel": "Facebook",
+        "startDate": "2025-06-01",
+        "endDate": "2025-06-30",
+        "cost": 10000,
+        "revenue": 25000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Proteinbar X",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 2,
+        "name": "Vintertilbud",
+        "channel": "Instagram",
+        "startDate": "2025-12-01",
+        "endDate": "2025-12-15",
+        "cost": 8000,
+        "revenue": 20000,
+        "profitMargin": 0.65,
+        "product": {
+            "name": "Proteinbar Y",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 3,
+        "name": "Back-to-school kampagne",
+        "channel": "YouTube",
+        "startDate": "2025-08-10",
+        "endDate": "2025-08-31",
+        "cost": 15000,
+        "revenue": 40000,
+        "profitMargin": 0.625,
+        "product": {
+            "name": "Proteinbar Z",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sommerkampagne",
+        "channel": "Instagram",
+        "startDate": "2025-06-15",
+        "endDate": "2025-06-30",
+        "cost": 12000,
+        "revenue": 28000,
+        "profitMargin": 0.58,
+        "product": {
+            "name": "Proteinbar X",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 5,
+        "name": "Back-to-school kampagne",
+        "channel": "TikTok",
+        "startDate": "2025-08-01",
+        "endDate": "2025-08-25",
+        "cost": 13000,
+        "revenue": 32000,
+        "profitMargin": 0.61,
+        "product": {
+            "name": "Energibar Kids",
+            "category": "Snacks",
+            "basePrice": 20
+        }
+    },
+    {
+        "id": 6,
+        "name": "Julekampagne",
+        "channel": "Facebook",
+        "startDate": "2025-12-10",
+        "endDate": "2025-12-26",
+        "cost": 10000,
+        "revenue": 23000,
+        "profitMargin": 0.59,
+        "product": {
+            "name": "Protein Cookie",
+            "category": "Snacks",
+            "basePrice": 28
+        }
+    },
+    {
+        "id": 7,
+        "name": "Nytårssalg",
+        "channel": "YouTube",
+        "startDate": "2026-01-01",
+        "endDate": "2026-01-07",
+        "cost": 9000,
+        "revenue": 22000,
+        "profitMargin": 0.62,
+        "product": {
+            "name": "Proteinshake B",
+            "category": "Drikkevarer",
+            "basePrice": 35
+        }
+    },
+    {
+        "id": 8,
+        "name": "Forårskampagne",
+        "channel": "Instagram",
+        "startDate": "2025-03-10",
+        "endDate": "2025-03-31",
+        "cost": 6000,
+        "revenue": 15000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Smoothie A",
+            "category": "Drikkevarer",
+            "basePrice": 30
+        }
+    },
+    {
+        "id": 9,
+        "name": "Efterårskampagne",
+        "channel": "Facebook",
+        "startDate": "2025-10-05",
+        "endDate": "2025-10-25",
+        "cost": 11000,
+        "revenue": 24000,
+        "profitMargin": 0.57,
+        "product": {
+            "name": "BCAA Drink",
+            "category": "Drikkevarer",
+            "basePrice": 32
+        }
+    },
+    {
+        "id": 10,
+        "name": "Sommerkampagne",
+        "channel": "TikTok",
+        "startDate": "2025-07-01",
+        "endDate": "2025-07-14",
+        "cost": 9500,
+        "revenue": 21000,
+        "profitMargin": 0.55,
+        "product": {
+            "name": "Proteinbar X",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 11,
+        "name": "Vintertilbud",
+        "channel": "YouTube",
+        "startDate": "2025-12-05",
+        "endDate": "2025-12-20",
+        "cost": 10000,
+        "revenue": 27000,
+        "profitMargin": 0.61,
+        "product": {
+            "name": "Proteinbar Y",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 12,
+        "name": "Black Friday",
+        "channel": "Instagram",
+        "startDate": "2025-11-28",
+        "endDate": "2025-11-30",
+        "cost": 18000,
+        "revenue": 45000,
+        "profitMargin": 0.66,
+        "product": {
+            "name": "Kreatin Boost",
+            "category": "Kosttilskud",
+            "basePrice": 45
+        }
+    },
+    {
+        "id": 13,
+        "name": "Back-to-school kampagne",
+        "channel": "Facebook",
+        "startDate": "2025-08-05",
+        "endDate": "2025-08-20",
+        "cost": 14000,
+        "revenue": 35000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Proteinbar Z",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 14,
+        "name": "Julekampagne",
+        "channel": "Instagram",
+        "startDate": "2025-12-15",
+        "endDate": "2025-12-31",
+        "cost": 9500,
+        "revenue": 24000,
+        "profitMargin": 0.62,
+        "product": {
+            "name": "Protein Chokolade",
+            "category": "Snacks",
+            "basePrice": 27
+        }
+    },
+    {
+        "id": 15,
+        "name": "Påsketilbud",
+        "channel": "Facebook",
+        "startDate": "2025-04-01",
+        "endDate": "2025-04-12",
+        "cost": 7000,
+        "revenue": 17000,
+        "profitMargin": 0.59,
+        "product": {
+            "name": "Proteinbar XL",
+            "category": "Snacks",
+            "basePrice": 29
+        }
+    },
+    {
+        "id": 16,
+        "name": "Kampagne Uge 42",
+        "channel": "YouTube",
+        "startDate": "2025-10-12",
+        "endDate": "2025-10-18",
+        "cost": 6000,
+        "revenue": 16000,
+        "profitMargin": 0.65,
+        "product": {
+            "name": "Recovery Shake",
+            "category": "Drikkevarer",
+            "basePrice": 38
+        }
+    },
+    {
+        "id": 17,
+        "name": "Sommerkampagne",
+        "channel": "YouTube",
+        "startDate": "2025-07-15",
+        "endDate": "2025-07-31",
+        "cost": 11500,
+        "revenue": 25000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Electrolyte Tabs",
+            "category": "Kosttilskud",
+            "basePrice": 22
+        }
+    },
+    {
+        "id": 18,
+        "name": "Vintertilbud",
+        "channel": "TikTok",
+        "startDate": "2025-11-20",
+        "endDate": "2025-12-05",
+        "cost": 10500,
+        "revenue": 22000,
+        "profitMargin": 0.57,
+        "product": {
+            "name": "Proteinbar Y",
+            "category": "Snacks",
+            "basePrice": 25
+        }
+    },
+    {
+        "id": 19,
+        "name": "Efterårskampagne",
+        "channel": "Instagram",
+        "startDate": "2025-10-01",
+        "endDate": "2025-10-14",
+        "cost": 9000,
+        "revenue": 21000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Proteinbar Hazelnut",
+            "category": "Snacks",
+            "basePrice": 26
+        }
+    },
+    {
+        "id": 20,
+        "name": "Black Friday",
+        "channel": "Facebook",
+        "startDate": "2025-11-29",
+        "endDate": "2025-12-01",
+        "cost": 16000,
+        "revenue": 42000,
+        "profitMargin": 0.68,
+        "product": {
+            "name": "Muskel Gainer",
+            "category": "Kosttilskud",
+            "basePrice": 60
+        }
+    },
+    {
+        "id": 21,
+        "name": "Cyber Monday",
+        "channel": "Instagram",
+        "startDate": "2025-12-02",
+        "endDate": "2025-12-02",
+        "cost": 5000,
+        "revenue": 14000,
+        "profitMargin": 0.65,
+        "product": {
+            "name": "Omega 3 kapsler",
+            "category": "Kosttilskud",
+            "basePrice": 40
+        }
+    },
+    {
+        "id": 22,
+        "name": "Forårskampagne",
+        "channel": "TikTok",
+        "startDate": "2025-03-05",
+        "endDate": "2025-03-20",
+        "cost": 6500,
+        "revenue": 16000,
+        "profitMargin": 0.62,
+        "product": {
+            "name": "Vegansk Bar",
+            "category": "Snacks",
+            "basePrice": 26
+        }
+    },
+    {
+        "id": 23,
+        "name": "Nytårssalg",
+        "channel": "YouTube",
+        "startDate": "2026-01-02",
+        "endDate": "2026-01-05",
+        "cost": 7000,
+        "revenue": 19000,
+        "profitMargin": 0.64,
+        "product": {
+            "name": "Protein Shake Berry",
+            "category": "Drikkevarer",
+            "basePrice": 34
+        }
+    },
+    {
+        "id": 24,
+        "name": "Sommerkampagne",
+        "channel": "Instagram",
+        "startDate": "2025-07-01",
+        "endDate": "2025-07-10",
+        "cost": 9800,
+        "revenue": 24000,
+        "profitMargin": 0.61,
+        "product": {
+            "name": "Smoothie Mango",
+            "category": "Drikkevarer",
+            "basePrice": 32
+        }
+    },
+    {
+        "id": 25,
+        "name": "Back-to-school kampagne",
+        "channel": "Facebook",
+        "startDate": "2025-08-01",
+        "endDate": "2025-08-20",
+        "cost": 12500,
+        "revenue": 30000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Student Snack Pack",
+            "category": "Snacks",
+            "basePrice": 20
+        }
+    },
+    {
+        "id": 26,
+        "name": "Januar Kickstart",
+        "channel": "TikTok",
+        "startDate": "2026-01-10",
+        "endDate": "2026-01-20",
+        "cost": 9000,
+        "revenue": 21000,
+        "profitMargin": 0.63,
+        "product": {
+            "name": "Pre-Workout Boost",
+            "category": "Kosttilskud",
+            "basePrice": 42
+        }
+    },
+    {
+        "id": 27,
+        "name": "Mors Dag kampagne",
+        "channel": "Instagram",
+        "startDate": "2025-05-05",
+        "endDate": "2025-05-09",
+        "cost": 4800,
+        "revenue": 13000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Proteinbar Rose",
+            "category": "Snacks",
+            "basePrice": 28
+        }
+    },
+    {
+        "id": 28,
+        "name": "Fars Dag kampagne",
+        "channel": "Facebook",
+        "startDate": "2025-06-04",
+        "endDate": "2025-06-07",
+        "cost": 5500,
+        "revenue": 14000,
+        "profitMargin": 0.61,
+        "product": {
+            "name": "Power Bar XL",
+            "category": "Snacks",
+            "basePrice": 30
+        }
+    },
+    {
+        "id": 29,
+        "name": "Weekend Deal",
+        "channel": "YouTube",
+        "startDate": "2025-09-05",
+        "endDate": "2025-09-07",
+        "cost": 3000,
+        "revenue": 9000,
+        "profitMargin": 0.66,
+        "product": {
+            "name": "Minipakke Protein",
+            "category": "Snacks",
+            "basePrice": 18
+        }
+    },
+    {
+        "id": 30,
+        "name": "Weekend Deal",
+        "channel": "Instagram",
+        "startDate": "2025-11-08",
+        "endDate": "2025-11-09",
+        "cost": 3200,
+        "revenue": 10000,
+        "profitMargin": 0.68,
+        "product": {
+            "name": "Minipakke Protein",
+            "category": "Snacks",
+            "basePrice": 18
+        }
+    },
+    {
+        "id": 31,
+        "name": "Halloween Sale",
+        "channel": "TikTok",
+        "startDate": "2025-10-28",
+        "endDate": "2025-10-31",
+        "cost": 7000,
+        "revenue": 17000,
+        "profitMargin": 0.6,
+        "product": {
+            "name": "Proteinbar Pumpkin",
+            "category": "Snacks",
+            "basePrice": 26
+        }
+    },
+    {
+        "id": 32,
+        "name": "Weekend Boost",
+        "channel": "Facebook",
+        "startDate": "2025-09-18",
+        "endDate": "2025-09-20",
+        "cost": 4000,
+        "revenue": 11000,
+        "profitMargin": 0.65,
+        "product": {
+            "name": "Electrolyte Gel",
+            "category": "Kosttilskud",
+            "basePrice": 21
+        }
+    },
+    {
+        "id": 33,
+        "name": "Julestart",
+        "channel": "Instagram",
+        "startDate": "2025-11-15",
+        "endDate": "2025-11-30",
+        "cost": 10500,
+        "revenue": 26000,
+        "profitMargin": 0.61,
+        "product": {
+            "name": "Proteinbar Yule",
+            "category": "Snacks",
+            "basePrice": 27
+        }
+    }
+]
