@@ -115,8 +115,12 @@ const resolvers = {
                 endDate: data.end_date,
                 cost: data.cost,
                 revenue: data.revenue,
-                profitMargin: data.profit_margin
-
+                profitMargin: data.profit_margin,
+                product: {
+                    name: (data.products as any).name,
+                    category: (data.products as any).category,
+                    basePrice: (data.products as any).base_price
+                }
             }
         }
 
