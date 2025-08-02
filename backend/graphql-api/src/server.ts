@@ -35,6 +35,7 @@ const typeDefs = gql`
     campaign(id: Int!): Campaign
     }
 `
+
 // Resolver definerer hvordan data skal hentes for hvert felt i schemaet
 const resolvers = {
     Query: {
@@ -50,16 +51,19 @@ const resolvers = {
                     end_date,
                     cost,
                     revenue,
-                    profit_margin
+                    profit_margin,
+                    products (
+                        name,
+                        category,
+                        base_price
+                    )
                 `)
             if (error) {
                 console.error(error)
                 throw new Error("Kunne ikke hente kampagner")
             }
 
-            console.log('Supabase data:', data)
-
-            return data.map((c) => ({
+            return data.map((c: any) => ({
                 id: c.id,
                 name: c.name,
                 channel: c.channel,
@@ -68,6 +72,11 @@ const resolvers = {
                 cost: c.cost,
                 revenue: c.revenue,
                 profitMargin: c.profit_margin,
+                product: {
+                    name: c.products.name,
+                    category: c.products.category,
+                    basePrice: c.products.base_price
+                }
             }))
         },
 
@@ -106,12 +115,8 @@ const resolvers = {
                 endDate: data.end_date,
                 cost: data.cost,
                 revenue: data.revenue,
-                profitMargin: data.profit_margin,
-                product: {
-                    name: data.products?.[0]?.name,
-                    category: data.products?.[0]?.category,
-                    basePrice: data.products?.[0]?.base_price
-                }
+                profitMargin: data.profit_margin
+
             }
         }
 
